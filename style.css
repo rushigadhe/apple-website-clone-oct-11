@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:white
+}
+nav{
+ height: 50px;
+ width: 100%;
+ background-color: black;
+ color: white;
+ display: inline-block;
+ margin:0 auto;
+ padding: 12px;
+ display: flex;
+ flex-direction: row;
+
+}
+nav ul li{
+    margin-left: 70px; 
+    padding: 10x; 
+    display: inline;
+    justify-content: space-between;
+    justify-content: center;
+}
+p{ 
+    font-weight: lighter;
+    padding: 12px;
+    /* margin-left: 500px; */
+    background-color:white;
+    width: 100%;
+    /* color: white; */
+    /* border: 1px solid white; */
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding: 12px;
+    color: white;
+    
+}
+h3{
+    
+    text-align: center;
+    color: white;
+    padding: 12px;
+    margin: 12px;
+}
+a{
+    margin: 0 auto;
+    text-align: center;
+    margin-left:300px;
+    /* margin: 0px; */
+     /* font-weight: 300px; */
+     font-size: larger;
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(59, 78, 254);
+}
+img{
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+ 
+#slider{
+    background-color: white;
+    color: black;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+
+}
+#slider ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10pxpx;
+    border: none;
+    text-align: center;
+    margin-left:70px ;
+    /* color: white; */
+
+}
+.container{
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+
+color:linear-gradient(#2CA2B4, #5598DE, #7F87FF, #F65AAD, #EC3D43);
+ font-size: 48px;
+ font-family: SF Pro Display;
+ font-weight: 700;
+ line-height: 52.01px;
+ word-wrap: break-word
+}
+#box1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+span{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border: 1px solid white;
+    margin: 6px;
+    padding: 6px;
+    background-color:rgb(59, 138, 218);
+    color:white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    width: 82px;
+    
+    
+}
+a{
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 37px;
+    font-size: larger;
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(59, 78, 254);
+
+}
+/* #bacimg{
+    background-image: url("figure(4).jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+} */
